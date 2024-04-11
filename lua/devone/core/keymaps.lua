@@ -21,3 +21,5 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Cierra pestaña act
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Ir a la pestaña siguiente." })
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Ir pestaña previa" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Obre buffer actual en nueva pestaña." })
+
+-- guardado y salida rápida
