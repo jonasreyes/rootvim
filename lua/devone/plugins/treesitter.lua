@@ -44,8 +44,6 @@ return {
       "gitignore",
       "query",
       "vimdoc",
-      "c",
-      "python",
     },
     incremental_selection = {
       enable = true,

@@ -18,14 +18,14 @@ return {
         indent_markers = {
         enable = true,
       },
-      icons = {
-        glyphs = {
-          folder = {
-            arrow_closed = "", -- flecha cuando la carpeta está cerrada
-            arrow_open = "" -- flecha cuando la carpeta está abierta
-          },
-        },
-      },
+    --  icons = {
+    --    glyphs = {
+    --      folder = {
+    --        arrow_closed = "", -- "", -- flecha cuando la carpeta está cerrada
+    --        arrow_open = "" -- "" -- flecha cuando la carpeta está abierta
+    --      },
+    --    },
+    --  },
     },
     -- disable window_picker for 
     -- explorer to work well with
