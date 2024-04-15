@@ -4,7 +4,8 @@ local keymap = vim.keymap -- for conciseness
 
 keymap.set("i", "kj", "<ESC>", { desc = "Saliendo del modo insert con kj." })
 
-keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
+-- keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
+keymap.set("n", "<ESC>", ":nohl<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
 
 -- incrementar y decrementar números:
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Incremento de número." }) -- incrementando
