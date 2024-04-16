@@ -7,6 +7,12 @@ keymap.set("i", "kj", "<ESC>", { desc = "Saliendo del modo insert con kj." })
 -- keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
 keymap.set("n", "<ESC>", ":nohl<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
 
+-- saliendo del buffer
+keymap.set("n", "<leader>q", ":q<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
+
+-- guardando el buffer
+keymap.set("n", "<leader>w", ":w<CR>", { desc = "Limpiando el resaltado de las búsquedas." })
+
 -- incrementar y decrementar números:
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Incremento de número." }) -- incrementando
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decremento de número." }) -- decrementando
