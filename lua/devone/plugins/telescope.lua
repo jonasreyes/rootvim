@@ -5,6 +5,7 @@ return {
     "nvim-lua/plenary.nvim",
     { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
     "nvim-tree/nvim-web-devicons",
+    "folke/todo-comments.nvim",
   },
   config = function()
     local telescope = require("telescope")
@@ -32,5 +33,7 @@ return {
     keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>", { desc = "Buscador ágil de archivos recientes" })
     keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Buscador ágil de cadenas de texto en CWD" })
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Buscador ágil de cadenas de texto bajo el cursor." })
+    keymap.set("n", "<leader>ft", "<cmd>TodoTelescope<cr>", { desc = "Buscador de TODO" })
+
   end,
 }
