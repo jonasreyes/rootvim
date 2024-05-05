@@ -32,7 +32,6 @@ return {
         "emmet_ls",
         "pyright",
         "sqlls",
-        "phpactor",
         "intelephense",
         "bashls",
       },
