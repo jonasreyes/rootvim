@@ -1,7 +1,7 @@
 return {
   "williamboman/mason.nvim",
   dependencies = {
-    "williamboman/mason-lspconfig.nvim",
+   "williamboman/mason-lspconfig.nvim",
   },
   config = function()
     -- importamos mason
@@ -24,7 +24,7 @@ return {
     mason_lspconfig.setup({
       -- lista de servidores para mason
       ensure_installed = {
-        "tsserver",
+ --       "tsserver",
         "html",
         "cssls",
         "tailwindcss",
